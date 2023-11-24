@@ -1,7 +1,7 @@
 import tweepy
 import time
 
-# Set your Twitter API credentials
+# Set your Twitter API credentials. Get these from the developer portal
 consumer_key=""
 consumer_secret=""
 access_token=""
