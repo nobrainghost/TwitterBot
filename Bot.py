@@ -2,10 +2,7 @@ import tweepy
 import time
 
 # Set your Twitter API credentials
-consumer_key = "FOiRMi44uCVngElh9Kn4pttIY"
-consumer_secret = "Dsn4fTwBPf0wQo5eTWX15CMxdXKprndDJUicuzubTlLUdUW6Qz"
-access_token = "1691744234724892672-MZostFMpFn0TKZERhXYT1bBm1g7Y4L"
-access_token_secret = "WkYbcI3M8RN9gBi8PJ8WW7PRRQrvY3LqACAG82cLlt67I"
+
 
 # Initialize the Twitter client
 client = tweepy.Client(
