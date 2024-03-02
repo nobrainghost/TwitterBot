@@ -1,9 +1,13 @@
-import requests
+
 
 # List of URLs to fetch data from
 urls = [
-    "https://nairobi-stock-exchange-nse.p.rapidapi.com/stocks/Absa%20Bank%20Kenya%20Plc",
+    "https://nairobi-stock-exchange-nse.p.rapidapi.com/stocks/Absa Bank Kenya Plc",
     "https://nairobi-stock-exchange-nse.p.rapidapi.com/stocks/Safaricom",
+    "https://nairobi-stock-exchange-nse.p.rapidapi.com/stocks/KCB Group Limited",
+    "https://nairobi-stock-exchange-nse.p.rapidapi.com/stocks/Equity Group Holdings Limited",
+    "https://nairobi-stock-exchange-nse.p.rapidapi.com/stocks/Co-operative Bank of Kenya Limited",
+    "https://nairobi-stock-exchange-nse.p.rapidapi.com/stocks/Kenya Power & Lighting Company",
     # Add more URLs here as needed
 ]
 
