@@ -79,22 +79,21 @@ def read_tweets_without_blanks():
 # Read tweets and remove blanks
 tweets = read_tweets_without_blanks()
 
-# Loop to post tweets sequentially with a 10-second interval (for testing)
 for i in range(0, len(tweets), 5):
   try:
-    # Concatenate the next 5 lines into a single tweet
+   
     tweet_text = "\n".join(tweets[i:i+5])
 
-    # Post a tweet
+    
     response = client.create_tweet(text=tweet_text)
     print(f"Tweet posted: {tweet_text}")
   except tweepy.TweepError as e:
     print(f"Error posting tweet: {e}")
 
-  # Wait for 10 seconds before posting the next tweet (for testing)
-  time.sleep(10)  # 10 seconds for testing
+  
+  time.sleep(10)  
 
-# Clear the tweets.txt file after all tweets are posted
+
 with open(tweet_file_path, "w") as file:
   file.write("")  # Write an empty string to clear the file
 
