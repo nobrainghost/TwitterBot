@@ -1,3 +1,4 @@
+#deprecated file, you may find a use perhaps. lol
 import tweepy
 import time
 
