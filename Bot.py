@@ -50,10 +50,10 @@ with open('tweets.txt', 'a') as f:
             print("Failed to fetch data from:", url)
 
 # (Your Twitter API Credentials here)
-consumer_key = "3dBuNo5M9bgpevzDk9hMUylYN"
-consumer_secret = "bvLCHFMYdPxNz6gktv7gDNjntJXoc2x2fcwLM45nbaOTSkfgzG"
-access_token = "1730822173055393792-i1fs681VlgMA2RdPz873CAyaEYTrgN"
-access_token_secret = "nbnAve0khOUKX2466KK48kICRANej26vlXSmA4WFqjrBA"
+consumer_key = ""
+consumer_secret = ""
+access_token = "-"
+access_token_secret = ""
 
 # Initialize the Twitter client
 client = tweepy.Client(
